@@ -1,0 +1,44 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin: 2% 20% 0% 20%;
+    justify-content: center;
+}
+
+header h1{
+
+}
+
+.list-box{
+    border: 1px solid rgb(187, 120, 187);
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgb(236, 186, 236);
+}
+
+.list-box h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.users-name{
+    font-weight: bold;
+}
+
+.alterar-button{
+    text-decoration: none;
+    border: 1px solid rgb(187, 120, 187);
+    background-color: rgb(187, 120, 187);
+}
+
+.alterar-button:hover{
+    background-color: rgb(216, 166, 216);
+}
