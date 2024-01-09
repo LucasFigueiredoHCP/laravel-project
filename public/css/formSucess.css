@@ -4,3 +4,41 @@
     padding: 0;
 }
 
+body{
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    justify-content: center;
+}
+
+header{
+    border: 1px solid green;
+}
+
+header h1{
+    text-align: center;
+    color: #59429d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main{
+    border: 1px solid red;
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+}
+
+main .main-content{
+    display: flex;
+    margin: 20% 20% 20% 20%;
+}
+
+.button{
+    display: inline-block;
+}
+
+.button-admin-page{
+    display: inline-block;
+}
