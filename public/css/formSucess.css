@@ -12,10 +12,6 @@ body{
     justify-content: center;
 }
 
-header{
-    border: 1px solid green;
-}
-
 header h1{
     text-align: center;
     color: #59429d;
@@ -24,21 +20,39 @@ header h1{
 }
 
 main{
-    border: 1px solid red;
-    display: flex;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
     margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     height: 100px;
+    text-align: center;
+    background-color: beige;
 }
 
 main .main-content{
     display: flex;
-    margin: 20% 20% 20% 20%;
+    flex-direction: column;
 }
 
 .button{
     display: inline-block;
+    margin-top: 40px;
 }
 
 .button-admin-page{
     display: inline-block;
+    border: 1px solid rgb(172, 87, 172);
+    background-color: #59429d;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.button-admin-page a{
+    text-decoration: none;
+}
+
+.button-admin-page :hover{
+    background-color: #7761bb;
 }
