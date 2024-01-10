@@ -11,3 +11,41 @@ body{
     color: #59429d;
     justify-content: center;
 }
+
+h1{
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+}
+
+.topic-name{
+    margin-right: 43px;
+}
+
+.topic-email{
+    margin-right: 43px;
+}
+
+.back-button{
+    display: inline-block;
+    background-color: #59429d;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+.back-button :hover{
+    background-color: #856fc7;
+}

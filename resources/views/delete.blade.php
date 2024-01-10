@@ -33,5 +33,8 @@
     <a href="#" method = "POST" action="{{ \Request::route('deleteForm') }}"><button class="botao" type="submit">Deletar</button></a>
 </form>
     </main>
+<div class = "back-button" onclick="history.go(-1)">
+  <p>Voltar</p>
+</div>
 </body>
 </html>
