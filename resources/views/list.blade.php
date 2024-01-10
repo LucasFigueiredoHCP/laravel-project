@@ -12,25 +12,23 @@
     </header>
 
     <main>
+    <h2 class ="name-topic" >Nome</h2>
         <div class = "list-box">
-            <h2>Nome</h2>
+            
             <div class = "users-name">
-            @foreach($nome as $dataName)
-            {{ $dataName->nome }}
-            <div class = "alterar">
-            <a href="{{  route('alterar', $dataName->id) }}">
-                <h2>Alterar</h2>
-            </a>
-            <div class = "alterar-button">
-            </div>
-            <div class = "delete">
+                    @foreach($nome as $dataName)
+                    {{ $dataName->nome }}
+            <div class = "alterar-deletar">
+                <div class = "alterar-button">
+                <a href="{{  route('alterar', $dataName->id) }}">
+                    <h2>Alterar</h2>
+                </a>
+                </div>
                 <div class = "delete-button">
                 <a href="{{  route('delete', $dataName->id) }}">
                 <h2>Excluir</h2>
                 </a>
-                </div>
             </div>
-
         </div>
         <br>
         <br>
