@@ -19,3 +19,7 @@ Route::post('delete/{id}', [App\Http\Controllers\homeController::class, 'deleteF
 //In first parameter we need pass the route, and inform that we send any data by url with an id after the '/' and above '{}'
 //The controller will know what do with the data, but we need specify this in created function
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
